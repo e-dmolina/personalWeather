@@ -3,10 +3,6 @@ import * as Config from '../config';
 
 export const environment = {
   baseURL: Config.env.BASE_URL,
-  assetsBaseUrl: Config.env.ASSETS_BASE_URL,
-  assetsBucketName: Config.env.ASSETS_BUCKET_NAME,
-  baseURLSecure: Config.env.BASE_URL_SECURE,
-  mockURL: Config.env.MOCK_URL,
 };
 
 export const client = (baseURL = Config.env.BASE_URL) =>

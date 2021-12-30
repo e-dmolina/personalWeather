@@ -129,13 +129,13 @@ const Home = () => {
               buttonTextStyle={styles.dropDownButtonText}
               defaultButtonText={selectedCity.city}
               data={citiesData}
-              onSelect={(selectedItem, index) => {
+              onSelect={selectedItem => {
                 setSelectedCity(selectedItem);
               }}
-              buttonTextAfterSelection={(selectedItem, index) => {
+              buttonTextAfterSelection={selectedItem => {
                 return selectedItem.city;
               }}
-              rowTextForSelection={(item, index) => {
+              rowTextForSelection={item => {
                 return item.city;
               }}
             />

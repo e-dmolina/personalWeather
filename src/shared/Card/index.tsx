@@ -1,6 +1,5 @@
 import React from 'react';
 import {Image, StyleSheet, Text, View} from 'react-native';
-import Icon from 'react-native-vector-icons/Feather';
 import {env} from '../../config';
 
 interface ICardProps {

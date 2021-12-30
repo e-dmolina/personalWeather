@@ -1,5 +1,5 @@
 import {client} from '../../api/client';
-import {call, put, takeLatest} from 'redux-saga/effects';
+import {put, takeLatest} from 'redux-saga/effects';
 import {GET_SELECTED_CITY_WEATHER} from '../actionTypes';
 import {env} from '../../config';
 import {
